@@ -1,4 +1,4 @@
-package com.wordPractice;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -53,13 +53,6 @@ public class Window extends JFrame {
 		JButton loadFileButton = new JButton();
 		loadFileButton.setText("Open new file");
 		loadFileButton.setSize(this.getSize().width, 50);
-		loadFileButton.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent event) 
-			{
-				openFileChooser();
-			}
-		});
 		
 		JPanel yeet = new JPanel();
 		

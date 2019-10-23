@@ -1,7 +1,5 @@
 //test2
 
-package com.wordPractice;
-
 import javax.swing.*;
 import java.awt.*;
 
