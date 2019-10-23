@@ -1,3 +1,4 @@
+package com.wordPractice;
 //test2
 
 import javax.swing.*;
